@@ -1,9 +1,0 @@
-npx @tailwindcss/cli -i ./input.css -o ./output.css --watch
-<div class="search ml-[30px] m-4 flex">
-                <div class="flex w-full items-center container mx-auto">
-                  <div  class="  material-symbols-outlined  rounded-full">
-                      <input type="text" name=search class=" w-1/2 rounded-full  bg-gray-900 text-white px-1 py-1" 
-                      placeholder=" Search " />
-                    </div>
-                </div>
-            </div>
