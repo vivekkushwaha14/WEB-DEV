@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home / X</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body class="bg-black text-white">
+    <div class="flex container mx-auto bg-black text-white">
+        <div class="first w-10 md:w-[70%]">
+            <div class="logo invert my-4">
+                <svg viewBox="0 0 24 24" aria-hidden="true"
+                    class="w-8 m-auto r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                    <g>
+                        <path
+                            d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z">
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="sidebar flex items-end justify-end font-bold">
+                <ul class="optionsright flex flex-col w-full  gap-1 text-xl space-y-3 px-18    ">
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> home</span><span class="hidden "> Home
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined ">search </span><span class="hidden "> Explorer
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> notifications</span><span
+                            class="hidden ">Notification
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="material-symbols-outlined"> mail </span> <span class="hidden "> messages
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> list</span><span class="hidden "> Lists
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> communities</span><span class="hidden ">
+                            Communities
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> add</span><span class="hidden "> Premium
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> Person </span><span class="hidden "> Profile
+                        </span>
+                    </li>
+                    <li
+                        class="flex justify-start items-center gap-3 w-fit  hover:bg-gray-900 py-2 px-5 hover:cursor-pointer hover:rounded-full">
+                        <span class="text-4xl material-symbols-outlined "> more</span><span class="hidden "> More
+                        </span>
+                    </li>
+
+                    <div
+                        class="post  bg-white text-black w-full flex justify-center m-3 rounded-full p-4 hover:cursor-pointer">
+                        <button class="cursor-pointer">Post</button>
+
+                    </div>
+
+                </ul>
+
+            </div>
+        </div>
+        <div class="second  w-full border-[1px]  border-y-black  " style="border-left-color: rgb(83, 77, 77); border-right-color: rgb(93, 89, 89);">
+            <div class="header flex container  justify-center ">
+                <div class="foryou   hover:cursor-pointer w-full p-3 font-bold flex justify-center hover:bg-gray-500" >
+                    For you</div>
+                <div
+                    class="following  hover:cursor-pointer w-full p-3  font-bold flex justify-center ">
+                    Following</div>
+                <div class="cyber  hover:cursor-pointer w-full p-3  font-bold flex justify-center">
+                    CyberSecurity</div>
+            </div>
+           
+
+            <div class="profile flex">
+                <div class="logo  w-[10%] m-2 pl-2 pt-2">
+                    <img class="rounded-full "
+                        src="https://pbs.twimg.com/profile_images/1674002926539505664/jbVowlSc_bigger.png" alt="">
+
+                </div>
+                <div class="box w-[90%] flex flex-col  ">
+                    <div
+                        class="ev text-blue-400 border border-blue-400 rounded-xl w-[115px] h-[35px]   p-1 text-l cursor-pointer  mt-4  outline-none">
+                        <label for="send"></label>
+                        <select name="Everyone" id="ev" class="bg-black">
+                            <option value="Everyone" class="text-sm">Everyone</option>
+                            <option value="private">Private</option>
+                        </select>
+                    </div>
+
+                    <input type="text" class="w-full bg-black text-white mb-4 mt-5 text-2xl outline-none mx-2"
+                        placeholder="What's happening?!">
+                    <div class="everyone border-blue-400 flex justify-start  gap-1 pt-3 pb-3 ">
+                        <span class="material-symbols-outlined text-blue-500">
+                            globe_asia
+                        </span>
+                        <label for="vivek" class="text-black border-0 outline-none "></label>
+                        <select name="Everyone" id="" class="bg-black text-sm text-blue-400 ">
+                            <option value="drop">Everyone can reply</option>
+                            <option value="drop">Accounts you follow</option>
+                            <option value="drop">Verified Accounts</option>
+                            <option value="drop">Only accounts you mention</option>
+                        </select>
+
+
+
+                    </div>
+                    <hr class="mr-5">
+                    <div class="options m-2  pb-2  hover:cursor-pointer  " style="justify-content: space-between;">
+                        <div class="flex  items-center " style="justify-content: space-around;">
+
+                            <ul class="flex text-blue-400 gap-5 w-full">
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        add_photo_alternate
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        gif_box
+                                    </span>
+                                </li>
+                                <li><span class="material-symbols-outlined">
+                                        ballot
+                                    </span></li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        add_reaction
+                                    </span>
+                                </li>
+                                <li><span class="material-symbols-outlined">
+                                        calendar_clock
+                                    </span></li>
+                                <li>
+                                    <span class="material-symbols-outlined">
+                                        add_location
+                                    </span>
+                                </li>
+                            </ul>
+                            <span
+                                class="post text-black  flex justify-center rounded-full  font-bold hover:cursor-pointer w-[120px]  "
+                                style="background-color: gray;">
+                                <button class="hover:cursor-pointer  p-2  ">Post</button>
+                            </span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+            <hr class="pb-3 ">
+            <div class="flex justify-center text-blue-500  hover:cursor-pointer  pb-3  ">
+                Show all Posts
+            </div>
+            <hr>
+
+            <div class="posts  ">
+                <div class="post  border-[.1px] border-y-gray-900 border-x-0" >
+                    <div class="flex">
+                        <div class="image m-2 ">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="content m-3 pl-1">
+                            <span class="font-bold  text-white cursor-pointer"
+                                onmouseover="this.style.textDecoration='underline'"
+                                onmouseout="this.style.textDecoration='none';">
+                                Elon Musk
+
+                            </span>
+                            <span class="text-gray-500 cursor-pointer">
+                                @elonmusk · Jun 28</span>
+
+                            <div>legend</div>
+                            <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                <img class="rounded-xl"
+                                    src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                            </div>
+                            <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart_4_bars
+                                    </span>1k
+                                </div>
+                                <div class="flex gap-1">
+
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="posts  pt-2 border-[.1px] border-y-gray-600 border-x-0 ">
+                    <div class="post border-[.1px] border-y-gray-600 border-x-0 ">
+                        <div class="flex">
+                            <div class="image m-2 ">
+                                <img class="rounded-full"
+                                    src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content m-3 pl-1">
+                                <span class="font-bold  text-white cursor-pointer"
+                                    onmouseover="this.style.textDecoration='underline'"
+                                    onmouseout="this.style.textDecoration='none';">
+                                    Elon Musk
+    
+                                </span>
+                                <span class="text-gray-500 cursor-pointer">
+                                    @elonmusk · Jun 28</span>
+    
+                                <div>legend</div>
+                                <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                    <img class="rounded-xl"
+                                        src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                                </div>
+                                <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                    style="justify-content: space-between;">
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            chat_bubble
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            repeat
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bar_chart_4_bars
+                                        </span>1k
+                                    </div>
+                                    <div class="flex gap-1">
+    
+                                        <div class="icon flex items-center justify-center">
+                                            <span class="material-symbols-outlined">
+                                                bookmark
+                                            </span>
+                                        </div>
+                                        <div class="icon flex items-center justify-center">
+                                            <span class="material-symbols-outlined">
+                                                upload
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                </div>
+                
+                    <div class="post ">
+                        <div class="flex">
+                            <div class="image m-2 ">
+                                <img class="rounded-full"
+                                    src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                    alt="">
+                            </div>
+                            <div class="content m-3 pl-1">
+                                <span class="font-bold  text-white cursor-pointer"
+                                    onmouseover="this.style.textDecoration='underline'"
+                                    onmouseout="this.style.textDecoration='none';">
+                                    Elon Musk
+    
+                                </span>
+                                <span class="text-gray-500 cursor-pointer">
+                                    @elonmusk · Jun 28</span>
+    
+                                <div>legend</div>
+                                <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                    <img class="rounded-xl"
+                                        src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                                </div>
+                                <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                    style="justify-content: space-between;">
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            chat_bubble
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            repeat
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            favorite
+                                        </span>1k
+    
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bar_chart_4_bars
+                                        </span>1k
+                                    </div>
+                                    <div class="flex gap-1">
+    
+                                        <div class="icon flex items-center justify-center">
+                                            <span class="material-symbols-outlined">
+                                                bookmark
+                                            </span>
+                                        </div>
+                                        <div class="icon flex items-center justify-center">
+                                            <span class="material-symbols-outlined">
+                                                upload
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+    
+                    </div>
+                
+            </div>
+            
+           
+            <hr class="pt-2 pb-2">
+            <div class="posts  pt-2 ">
+                <div class="post ">
+                    <div class="flex">
+                        <div class="image m-2 ">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="content m-3 pl-1">
+                            <span class="font-bold  text-white cursor-pointer"
+                                onmouseover="this.style.textDecoration='underline'"
+                                onmouseout="this.style.textDecoration='none';">
+                                Elon Musk
+
+                            </span>
+                            <span class="text-gray-500 cursor-pointer">
+                                @elonmusk · Jun 28</span>
+
+                            <div>legend</div>
+                            <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                <img class="rounded-xl"
+                                    src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                            </div>
+                            <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart_4_bars
+                                    </span>1k
+                                </div>
+                                <div class="flex gap-1">
+
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr class="pt-2 pb-2">
+            <div class="posts  pt-2 ">
+                <div class="post ">
+                    <div class="flex">
+                        <div class="image m-2 ">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="content m-3 pl-1">
+                            <span class="font-bold  text-white cursor-pointer"
+                                onmouseover="this.style.textDecoration='underline'"
+                                onmouseout="this.style.textDecoration='none';">
+                                Elon Musk
+
+                            </span>
+                            <span class="text-gray-500 cursor-pointer">
+                                @elonmusk · Jun 28</span>
+
+                            <div>legend</div>
+                            <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                <img class="rounded-xl"
+                                    src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                            </div>
+                            <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart_4_bars
+                                    </span>1k
+                                </div>
+                                <div class="flex gap-1">
+
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr class="pt-2 pb-2">
+            <div class="posts  pt-2 ">
+                <div class="post ">
+                    <div class="flex">
+                        <div class="image m-2 ">
+                            <img class="rounded-full"
+                                src="https://pbs.twimg.com/profile_images/1936002956333080576/kqqe2iWO_bigger.jpg"
+                                alt="">
+                        </div>
+                        <div class="content m-3 pl-1">
+                            <span class="font-bold  text-white cursor-pointer"
+                                onmouseover="this.style.textDecoration='underline'"
+                                onmouseout="this.style.textDecoration='none';">
+                                Elon Musk
+
+                            </span>
+                            <span class="text-gray-500 cursor-pointer">
+                                @elonmusk · Jun 28</span>
+
+                            <div>legend</div>
+                            <div class="postimg m-3 mt-2 p-2    rounded-4xl">
+                                <img class="rounded-xl"
+                                    src="https://plaky.com/blog/wp-content/uploads/2023/08/Intro.jpg" alt="">
+                            </div>
+                            <div class="icons flex mx-3 text-gray-600 w-full p-2"
+                                style="justify-content: space-between;">
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        chat_bubble
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        repeat
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        favorite
+                                    </span>1k
+
+                                </div>
+                                <div class="icon flex items-center justify-center">
+                                    <span class="material-symbols-outlined">
+                                        bar_chart_4_bars
+                                    </span>1k
+                                </div>
+                                <div class="flex gap-1">
+
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            bookmark
+                                        </span>
+                                    </div>
+                                    <div class="icon flex items-center justify-center">
+                                        <span class="material-symbols-outlined">
+                                            upload
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <hr class="pt-2 pb-2">
+        </div>
+
+
+        <div class="third   w-full bg-red-52334520 pb-10">
+
+            <div class=" ml-[20px] mb-2 mt-.10  w-7/12">
+                <label for="default-search" class="  text-black-900 sr-only dark:text-white">Search</label>
+                <div class="relative">
+                    <div class="absolute inset-y-0 start-2 flex items-center ps-3 rounded-full">
+                        <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg>
+                    </div>
+                    <input type="search" id="default-search"
+                        class=" bg-black-900 text-white  ps-10 m-2 border rounded-full w-full h-10"
+                        placeholder="Search " required />
+                </div>
+            </div>
+
+
+            <div class="premium w-7/12 ml-[30px] bg-black-900 rounded-2xl  px-2 p-1 border-[1px]  ">
+                <div class="text-2xl font-bold m-2">Subscribe to Premium</div>
+
+                <h1 class="m-2">Subscribe to unlock new features and if eligible, receive a share of revenue.</h1>
+                <button
+                    class=" rounded-full p-2 text-white-500 bg-blue-400 w-30 pt-2 mb-2 ml-2 h-10  font-medium cursor-pointer">Subscribe</button>
+            </div>
+            <div class="whats ml-[30px]  m-4 w-7/12 bg-black-900  border  rounded-xl space-y-3  ">
+                <h1 class="text-2xl font-bold p-3 ">What's happening</h1>
+
+                <div class="item   hover:bg-gray-800 cursor-pointer pl-2  pb-1">
+                    <div class="font-bold text-sm  text-gray-700">Trending in India</div>
+                    <div class="font-bold ">#Rohit sharma</div>
+                    <div>50.2k Posts</div>
+                </div>
+                <div class="item   hover:bg-gray-800 cursor-pointer pl-2  pb-1">
+                    <div class="font-bold text-sm   text-gray-700">Trending in India</div>
+                    <div class="font-bold ">#Rohit sharma</div>
+                    <div>50.2k Posts</div>
+                </div>
+                <div class="item hover:bg-gray-800 cursor-pointer pl-2 pb-1">
+                    <div class="font-bold text-sm   text-gray-700">Trending in India</div>
+                    <div class="font-bold ">#Rohit sharma</div>
+                    <div>50.2k Posts</div>
+                </div>
+                <div class="item   hover:bg-gray-800 cursor-pointer pl-2 pb-1 ">
+                    <div class="font-bold text-sm   text-gray-700">Trending in India</div>
+                    <div class="font-bold  ">#Rohit sharma</div>
+                    <div>50.2k Posts</div>
+
+                </div>
+                <div
+                    class="item hover:bg-gray-800 cursor-pointer pl-2  p-2 pb-3 rounded-bl-xl rounded-br-xl text-blue-500">
+                    Show more
+                </div>
+
+            </div>
+            <div div class="follow  bg-black-900 rounded-xl   border-[1px]  w-7/12 ml-[30px]">
+                <h1 class="text-xl font-bold p-3  ">Who to follow </h1>
+                <div class="people hover:bg-gray-800 cursor-pointer p-3 font-bold">
+                    HTML
+                </div>
+                <div class="people  hover:bg-gray-800 cursor-pointer  p-3  font-bold">
+                    CSS
+                </div>
+                <div class="people  hover:bg-gray-800 cursor-pointer p-3  font-bold">
+                    JAVASCRIPT
+                </div>
+                <div
+                    class="item hover:bg-gray-800 cursor-pointer pl-2  p-2 pb-3 rounded-bl-xl rounded-br-xl text-blue-500">
+                    Show more
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+
+</html>

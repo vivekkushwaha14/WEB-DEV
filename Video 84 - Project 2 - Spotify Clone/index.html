@@ -76,35 +76,7 @@
             </div>
             <div class="spotifyplaylist">
                 <h1>Spotify Playlist</h1>
-                <div class="cardcontainer">
-                    <div class="card ">
-                        <div class="play">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
-                                <!-- Green circular background -->
-                                <circle cx="24" cy="24" r="24" fill="#1FD164" />
-
-                                <!-- Scaled and centered play icon -->
-                                <g transform="translate(12,12)">
-                                    <path d="M8 5v14l11-7z" fill="black" />
-                                </g>
-                            </svg>
-
-
-                        </div>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjv1_TYYYrnIrzVJGJrJkZXI8xk7o-UtRY_w&s"
-                            alt="">
-                        <h2>Happy Hits</h2>
-                        <p> Hits to boost your mood and fill you with happiness!</p>
-                    </div>
-
-                    <div class="card ">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjv1_TYYYrnIrzVJGJrJkZXI8xk7o-UtRY_w&s"
-                            alt="">
-                        <h2>Happy Hits</h2>
-                        <p> Hits to boost your mood and fill you with happiness!</p>
-                    </div>
-
-                </div>
+                <div class="cardcontainer"></div>
                 <div class="playbar">
                     <div class="seekbar">
                         <div class="circle"></div>
@@ -113,11 +85,20 @@
 
                         <div class="songinfo"></div>
                         <div class="songbuttons">
-                            <img id="previous" src="img/prevsong.svg" alt="">
-                            <img id="play" src="img/play.svg" alt="">
-                            <img id="next" src="img/nextsong.svg" alt="">
+                            <img width="35" id="previous" src="img/prevsong.svg" alt="">
+                            <img width="35" id="play" src="img/play.svg" alt="">
+                            <img width="35" id="next" src="img/nextsong.svg" alt="">
                         </div>
-                        <div class="songtime"></div>
+                        <div class="timevol">
+                            <div class="songtime"></div>
+                            <div class="volume">
+                                <img width="25" class="" src="img/volume.svg" alt="">
+                                <div class="range">
+                                    <input type="range" name="volume">
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
